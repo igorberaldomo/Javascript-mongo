@@ -1,0 +1,8 @@
+Esse é um projeto da StackX do modulo de backend
+A implementação usa o metodo fetch para pegar 5 cadastros aleatórios da API randomuser.me, filtrando para pegar somente o nome, email, a data de nascimento e a idade.
+Depois os coloca dentro de um banco de dados MongoDB Cloud na coleção 'people' dentro do banco de dados 'random'
+
+dependencias:
+    node
+    dotenv
+    mongoDB
