@@ -89,9 +89,7 @@ async function prepHtml(docs) {
   `
   return content
 }
-
 function main() {
-
   http.createServer(async function (req, res) {
     content = addPeople()
     res.writeHead(200, { 'Content-Type': 'text/html' });

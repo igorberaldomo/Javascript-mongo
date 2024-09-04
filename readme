@@ -1,6 +1,8 @@
 Esse é um projeto da StackX do modulo de backend
 A implementação usa o metodo fetch para pegar 5 cadastros aleatórios da API randomuser.me, filtrando para pegar somente o nome, email, a data de nascimento e a idade.
-Depois os coloca dentro de um banco de dados MongoDB Cloud na coleção 'people' dentro do banco de dados 'random'
+Depois os coloca dentro de um banco de dados MongoDB Cloud na coleção 'people' dentro do banco de dados 'random' e depois da operacão ele vai limpar a coleção 'people'
+Após isso ele passa esses cadastros para a função prepHtml que vai formatar o html com esses dados e retornar o html formatado
+Por fim a função main vai criar um servidor esse servidor então vai pegar o arquivo html e mandar para o navegador para ser exibido, sempre que for recaregada a pagina vai ser mudados as pessoas que foram inseridas no banco de dados.
 
 dependencias:
     node
