@@ -1,6 +1,5 @@
 const { MongoClient } = require('mongodb');
 var http = require('http');
-var fs = require('fs')
 const url = 'node /home/igor/Documents/Codigos/Stackx/Tarefas/Javascript+mongo/index.js'
 
 async function addPeople() {
@@ -27,7 +26,6 @@ async function addPeople() {
 
 
 async function prepHtml(docs) {
-  path = '/home/igor/Documents/Codigos/Stackx/Tarefas/Javascript+mongo/index.html'
   content = `
     <!DOCTYPE html>
     <html lang="en">
